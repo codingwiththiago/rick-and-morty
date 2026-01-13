@@ -3,5 +3,5 @@ import 'package:rick_and_morty_database/features/characters/domain/entities/char
 import 'package:fpdart/fpdart.dart';
 
 abstract class ICharacterRepository {
-  Future<Either<Failure, List<Character>>> getAllCharacters();
+  Future<Either<Failure, List<Character>>> getCharacters();
 }
