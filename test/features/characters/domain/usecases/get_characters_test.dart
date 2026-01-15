@@ -16,7 +16,7 @@ void main() {
       name: 'name',
       status: 'status',
       species: 'species',
-      image: 'image',
+      imageUrl: 'image',
     ),
   ];
 

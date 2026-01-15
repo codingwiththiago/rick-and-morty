@@ -9,6 +9,6 @@ abstract class Character with _$Character {
     required String name,
     required String status,
     required String species,
-    required String image,
+    required String imageUrl,
   }) = _Character;
 }
